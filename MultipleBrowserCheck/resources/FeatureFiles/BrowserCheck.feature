@@ -10,5 +10,5 @@ Feature: This is the test feature file for multiple browser related check
 
     Examples: 
       | browser | keyword            |
-      | chrome  | selenium           |
-#      | firefox | automation testing |
+#      | chrome  | selenium           |
+      | firefox | automation testing |

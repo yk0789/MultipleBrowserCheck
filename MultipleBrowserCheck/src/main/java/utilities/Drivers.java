@@ -15,7 +15,7 @@ public class Drivers {
 			this.driver = new ChromeDriver();
 			break;
 		case "firefox":
-			System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
+			System.setProperty("webdriver.gecko.driver", "resources/geckodriver");
 			this.driver = new FirefoxDriver();
 			break;
 //		case "safari":
