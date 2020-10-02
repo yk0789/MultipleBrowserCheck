@@ -3,6 +3,7 @@ package utilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
 
 public class Drivers {
 
@@ -18,9 +19,9 @@ public class Drivers {
 			System.setProperty("webdriver.gecko.driver", "resources/geckodriver");
 			this.driver = new FirefoxDriver();
 			break;
-//		case "safari":
-//			System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
-//			break;
+		case "safari":
+			this.driver = new SafariDriver();
+			break;
 		}
 		return driver;
 	}
